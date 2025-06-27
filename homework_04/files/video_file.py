@@ -1,6 +1,5 @@
 import datetime
-
-from base import BaseFile
+from files.base_file import BaseFile
 
 class VideoFile(BaseFile):
     def __init__(self, name: str, size: int, date: datetime.datetime, owner: str, duration: int, resolution: str):

@@ -1,7 +1,7 @@
 import datetime
-from audio import AudioFile
-from video import VideoFile
-from image import ImageFile
+from files.audio_file import AudioFile
+from files.video_file import VideoFile
+from files.image_file import ImageFile
 
 my_audiofile = AudioFile("song.mp3", 35000, datetime.datetime.now(), "user", 240)
 my_video_file = VideoFile("movie.mp4", 150000, datetime.datetime.now(), "user", 7200, "1920x1080")
